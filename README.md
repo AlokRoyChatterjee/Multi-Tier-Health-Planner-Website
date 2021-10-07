@@ -10,6 +10,10 @@
 ## Users can get recommended meal plans and weekly calories information on their meal plans 
 ## users can schedule doctor's appointments
 ## Users can view and change their personalized shopping lists and Exercise lists
+## Users can listen to music while viewing or changing meal plans or making their shopping and exercise lists
+## Users can get health recommendations based on blood pressure, age, information on health conditions, age, suggestions on mental health
+## Users can view maps of hiking trails and hiking trails conditions
 ## Users can search the global map for nearby grocery stores and restaurants to find their recommended foods
+## Users can view twitter and facebook feeds for healthy foods
 ## Users can email Reminders for their recommended,favorite foods and exercises
 
