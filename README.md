@@ -8,6 +8,7 @@
 ## Users can input and save their favorite exercises and food ingredients as reminders or into their user accounts
 ## Users can get recommendations on exercises based on their preferred daily calories
 ## Users can get recommended meal plans and weekly calories information on their meal plans 
+## users can schedule doctor's appointments
 ## Users can view and change their personalized shopping lists and Exercise lists
 ## Users can search the global map for nearby grocery stores and restaurants to find their recommended foods
 ## Users can email Reminders for their recommended,favorite foods and exercises
