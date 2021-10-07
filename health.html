@@ -1,0 +1,69 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.3.1/sandstone/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link rel="stylesheet" href="static/css/style.css" type="text/css" />
+    
+    <title>Health Recommendations</title>
+</head>
+<body style="background-color:green;zoom:150%;">
+    <nav style="color:white;background-color:black;display:inline-block;white-space:nowrap;" class="navbar navbar-inverse">
+  <div class="container-fluid">
+      <div style="display:flex;
+  justify-content:space-between;">
+    <div class="navbar-header">
+      <a class="navbar-brand" style="color:white" href="search.php">Health/Meal Planner Website App</a>
+    </div>
+    <ul class="nav navbar-nav" style="margin-left:5px;display:flex;justify-content:space-between;flex-direction:row;">
+      <li><a style="margin-right:10px;color:white;" href="shoppinglist.php">Shopping List</a></li>
+      <li><a href="exerciselist.php" style="color:white">Exercises List</a></li>
+      <li><a href="mealplans.php" style="color:white">Weekly Meal Plans</a></li>
+      <li><a href="fitness.php" style="color:white">Exercise Recommendations</a></li>
+      <li><a href="health.html" style="color:white">Health Recommendations</a></li>
+      <li><a href="savedexercises.php" style="color:white">Your Saved Exercises</a></li>
+      <li><a href="savemeals.php" style="color:white">Your Saved Shopping List</a></li>
+      <li><a href="maps.html" style="color:white">Map Search</a></li>
+      <li><a href="media.html" style="color:white">Healthy Foods Twitter</a></li>
+      <li><a href="media2.html" style="color:white">Healthy Foods Facebook</a></li>
+      <li><a href="media6.html" style="color:white">Your Doctor's Appointments</a></li>
+
+    </ul>
+    <ul class="nav navbar-nav navbar-right" style="justify-content:space-between;margin-left:20px;">
+      <li style="color:white;"><a href="register.php" style="color:white"><span class="glyphicon glyphicon-user" style="color:white;"></span> Register</a></li>
+      <li style="color:white;"><a href="storageclear.php" style="color:white;"><span class="glyphicon glyphicon-log-in" style="color:white;"></span> Logout</a></li>
+    </ul>
+    </div>
+  </div>
+</nav>
+<div style="margin:auto;display:flex;flex-direction:column;align-items:center;">
+    <div style="margin:auto;">
+        <h2 style="color:white;margin-top:20px; ">Get Personalized Health Recommendations Based on Personal Info</h2>
+        <iframe src="https://www.health.gov/myhealthfinder?widget=true" name="myhealthfinderframe" frameborder="0" id="myhealthfinderframe" scrolling="yes" height="485" width="100%" marginheight="0" title="myhealthfinder widget" marginwidth="0"><p>Your browser does not support iframes.</p></iframe>
+    </div>
+    
+    <div style="margin:auto;">
+        <h2 style="color:white;text-align:center;">Find Information on Many Health Conditions</h2>
+        <div style="position: relative; max-width: 500px; height: 300px"><iframe src="https://api-bridge.azurewebsites.net/conditions/?p=all&aspect=name,overview_short,symptoms_short,symptoms_long,treatments_overview_short,other_treatments_long,self_care_long,prevention_short,causes_short&tab=1&uid=c258b600-27aa-11ec-ab4f-9d62944bef45" title="NHS website - health a-z" style="position: absolute; height: 100%; width: 100%; border: 2px solid #015eb8;"></iframe></div>
+    </div>
+    <div style="margin:auto;">
+        <h2 style="color:white;text-align:center;">Information On How To Stay Healthy</h2>
+        <iframe src="https://api-bridge.azurewebsites.net/livewell/?uid=c258b600-27aa-11ec-ab4f-9d62944bef45&w=500&h=500" style="border: none; height: 420px; width: 420px;"></iframe>
+    </div>
+    <div style="margin:auto;">
+        <h2 style="color:white;text-align:center;">Mental Health Suggestions Test</h2>
+        <!--NHS tool start--><div id='yourMindPlanQuiz' data-site-id='OrganisationName>' data-syndication-id='unknown'></div><script src='https://digitalcampaignsstorage.blob.core.windows.net/mental-health-tool/production/deploy/public/static/js/main.js'></script><!--NHS tool end-->
+    </div>
+    <div style="margin:auto;margin-top:20px;">
+        <h2 style="color:white;text-align:center;">Define Your Blood Pressure</h2>
+        <!--NHS tool start--><iframe id="tool_blood-pressure" src="https://assets-staging.nhs.uk/tools/blood-pressure/index.html?syn_id=c258b600-27aa-11ec-ab4f-9d62944bef45" style = "width:100%;" frameborder="0" scrolling="no" seamless></iframe><script src="https://assets-staging.nhs.uk/tools/blood-pressure/js/iframe_helper.js"></script><!--NHS tool end-->
+    </div>
+    </div>
+
+
+</body>
+</html>
+
